@@ -1,0 +1,16 @@
+AL1 Clock file generated using spacecraft data
+FDG/URSC 
+ \begindata
+SCLK_KERNEL_ID           = ( @2023-08-31/10:20:15.00 )
+SCLK_DATA_TYPE_156        = ( 1 )
+SCLK01_TIME_SYSTEM_156    = ( 2 )
+SCLK01_N_FIELDS_156       = ( 2 )
+SCLK01_MODULI_156         = ( 153792000 1 )
+SCLK01_OFFSETS_156        = ( 0 0 )
+SCLK01_OUTPUT_DELIM_156   = ( 1 )
+SCLK_PARTITION_START_156  = (  0.0 )
+SCLK_PARTITION_END_156  = (      153792000)
+SCLK01_COEFFICIENTS_156   = (
+            0.000000      741441669.05665      1.0000000000000000
+                           )
+\begintext

@@ -1,0 +1,14 @@
+KPL/MK
+\begindata
+    PATH_VALUES     = ( '/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/sat+'
+                        'ellite_position/spice_git/data/external' )
+    PATH_SYMBOLS    = ( 'KERNELS'                                 )
+    KERNELS_TO_LOAD = (
+        '$KERNELS/ADITYA_frame_kernel_v04.tf'
+      	'$KERNELS/de432s.bsp'
+	'$KERNELS/pck00011_n0066.tpc'
+	'$KERNELS/clockgen_sclk_al1.tsc'
+	'$KERNELS/naif0012.tls.txt'
+        '$KERNELS/SUT81N18P1AL10019108NNNN24305053620769_C24_0409_000630_00_qib.bc'
+        '$KERNELS/traj_master_al1.bsp'
+                      )

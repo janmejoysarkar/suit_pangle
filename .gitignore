@@ -1,0 +1,4 @@
+$ cat .gitignore
+data/raw/*
+data/processed/*
+products/*
