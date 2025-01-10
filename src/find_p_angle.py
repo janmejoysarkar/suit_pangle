@@ -16,7 +16,6 @@ import spiceypy
 from datetime import datetime, timedelta
 import numpy as np
 import os
-import glob
 
 UTC_img = '2024-07-23T01:04:09.58'
 project_path='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/satellite_position/suit_pangle_git/'
