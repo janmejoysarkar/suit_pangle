@@ -12,8 +12,9 @@ from astropy.io import fits
 import os
 
 ### USER-DEFINED ###
-img_path= "/home/janmejoyarch/sftp_drive/suit_data/level1.1fits/2024/10/29/engg4/SUT_C24_0406_000626_Lev1.0_2024-10-29T01.00.49.315_4081NB03.fits"
-crota2= -5.585685
+img_path= '/home/janmejoyarch/sftp_drive/suit_data/level1.1fits/\
+2024/07/23/normal_4k/SUT_T24_0995_000480_Lev1.0_2024-07-23T01.04.09.588_0971NB04.fits'
+crota2= 5.0339
 SAVE=True
 ####################
 project_path='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/satellite_position/suit_pangle_git/'

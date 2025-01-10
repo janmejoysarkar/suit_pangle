@@ -18,7 +18,7 @@ import numpy as np
 import os
 import glob
 
-UTC_img = '2024-10-29T01:00:49.315'
+UTC_img = '2024-07-23T01:04:09.58'
 project_path='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/satellite_position/suit_pangle_git/'
 ###############
 CK_file = os.path.join(project_path, 'data/external/local_CK.bc')
@@ -37,6 +37,10 @@ transform_matrix = spiceypy.pxform('HCI', 'ADITYA_SUIT2', ET_img) #Return the ma
 SUN_NORTH_SUIT_FRAME_VEC= spiceypy.mxv(transform_matrix, SUN_NORTH_VEC) # SUN NORTH in SUIT frame.
 SUN_NORTH_SUIT_FRAME_VEC[0]=0 # Tilt in the direction towards/away from the direction of obs is set to 0.
 p_angle_rad = spiceypy.vsep(SUIT_ROLL_VEC, SUN_NORTH_SUIT_FRAME_VEC) #Angular sep between two vectors in radian.
-p_angle_deg =-(p_angle_rad*180/np.pi+0.4)
+# Changes the direction of correction
+if SUN_NORTH_SUIT_FRAME_VEC[2]<0 :
+    p_angle_deg =-p_angle_rad*180/np.pi
+else:
+    p_angle_deg =p_angle_rad*180/np.pi
 print(p_angle_deg)
 spiceypy.kclear() #Clear the KEEPER subsystem: unload all kernels, clear the kernel pool, and re-initialize the subsystem. Existing watches on kernel variables are retained.

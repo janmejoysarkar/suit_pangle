@@ -196,7 +196,7 @@ SUIT FRAME2---------------------------------
         TKFRAME_-156300_RELATIVE         = 'ADITYA'
         TKFRAME_-156300_SPEC             = 'ANGLES'
         TKFRAME_-156300_UNITS            = 'DEGREES'
-        TKFRAME_-156300_ANGLES           = ( 0.0, 0.032, -0.037 )
+        TKFRAME_-156300_ANGLES           = ( -0.4, 0.032, -0.037 )
         TKFRAME_-156300_AXES             = ( 1,   2,   3   )
   
   \begintext
