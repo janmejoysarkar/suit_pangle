@@ -27,7 +27,7 @@ For all SPICE related operations in the toolkot, calling only the meta-kernel is
 Corrections are to be applied on SUIT Level 1 Data.
 
 ### Correcting the P-angle in a given image
-Use  `src/rewrite_img.py` to apply P-angle corrections (updating `CROTA2` in the fits header) in the loaded image. Processed images will be saved in `data/processed`.
+Use  `src/rewrite_img.py` to apply P-angle corrections (updating `CROTA2` in the fits header) in the loaded image. Processed images will be saved in `products/`.
 
 This process temporarily generates symlinks to image-packet specific `*.bc` and `*.bsp` files in the `data/external` directory. The symlinks are automatically removed after the operation.
 
