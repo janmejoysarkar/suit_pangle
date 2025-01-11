@@ -4,16 +4,19 @@ P-Angle refers to the rotation of the helioprojective coordinate system about th
 This is necessary to ensure the Helioprojective coordinates point to the solar north in the images.
 
 The rotation of the coordinate system is guided by the `CROTA2` header key in the fits images.
+
+
 ## Authors
 
 - [@janmejoysarkar](https://github.com/janmejoysarkar)
 - [@rdiucaa](https://github.com/rdiucaa)
 - Srikar Paavan Tadepalli
+
+
 ## Acknowledgements
 
  - [IUCAA, Pune](https://www.iucaa.in)
  - [ISRO, Aditya-L1](https://www.isro.gov.in/Aditya_L1.html)
-
 
 
 ## Usage/Examples
@@ -41,5 +44,7 @@ Run `src/find_p_angle.py` to find the P-angle at a given UTC time. The Camera Ma
 - [SpiceyPy tooklit info](https://spiceypy.readthedocs.io/en/stable/documentation.html)
 - Information about the specific SPICE kernel files used in this module can be found in `references/kernel_files_info.xlsx`
 
+
 ## Screenshots
 ![Example of P-angle implementation- Comparison with AIA 1600 coordinates](./README_files/example.gif)
+Example of P-angle implementation- Comparison with AIA 1600 coordinates
